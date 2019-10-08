@@ -1,3 +1,5 @@
+My modification, because I don't like Windows icon so I have replaced it with standard Win10. Also enabled labels by default.
+
 # minimal-dark clover theme
 Dark version of minimal theme for [the Clover UEFI bootloader](http://sourceforge.net/projects/cloverefiboot), based off [clover-theme-minimal by Alex James](https://github.com/al3xtjames/clover-theme-minimal).
 
@@ -7,7 +9,7 @@ Dark version of minimal theme for [the Clover UEFI bootloader](http://sourceforg
 Clone or download the ZIP of this repo to your Clover theme directory (in /EFI/CLOVER/themes, located on the EFI system partition).
 Then, edit your Clover config.plist to select the theme.
 
-By default, labels and badges for the boot entries are hidden. If you would like to enable them, you can edit the theme.plist file in this repo by changing the `Label` key to `true` and `Badges`/`Show` key to `true`.
+By default, Badges for the boot entries are hidden and labels are enabled. If you would like to enable them, you can edit the theme.plist file in this repo by changing the `Label` key to `true` and `Badges`/`Show` key to `true`.
 
 ### Credits
 
